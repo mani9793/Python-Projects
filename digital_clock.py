@@ -10,6 +10,7 @@ def clock():
     h=str(time.strftime("%H"))
     m=str(time.strftime("%M"))
     s=str(time.strftime("%S"))
+    
     #converts AM N PM + 12 hour format
 
     if int(h)>12 and int(m)>0:
